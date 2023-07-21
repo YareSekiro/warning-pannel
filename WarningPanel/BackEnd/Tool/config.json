@@ -1,0 +1,26 @@
+{
+  "user": {
+    "Column": 4,
+    "Function": ["getId","getLogin","getPerm","getImg"],
+    "Name": ["id","login","perm","img"]
+  },
+  "warning": {
+    "Column": 7,
+    "Function": ["getId", "getPlayer", "getNumber","getReason", "getStaff","getDate_s",  "getDate_e"],
+    "Name": ["id","player","number","reason","staff","date_s","date_e"]
+  },
+  "banlist":{
+    "Column": 3,
+    "Function": ["getId","getPlayer","getNumber"],
+    "Name": ["id","player","number"]
+  },
+  "playersadvert": {
+    "Column": 3,
+    "Function": ["getId","getPlayer","getTotal"],
+    "Name": ["id","player","total"]
+  },
+  "panel": {
+    "Column": 5,
+    "Name": ["id" , "player", "total" , "Grant date" , "End date"]
+  }
+}
