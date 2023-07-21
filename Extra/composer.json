@@ -1,0 +1,22 @@
+{
+    "name": "mus/panel",
+    "authors": [
+        {
+            "name": "Mus mus",
+            "email": "imbliiindirl@gmail.com"
+        }
+    ],
+
+    "autoload":{
+        "psr-4":{
+            "App\\": "../WarningPanel/BackEnd"
+        }
+    },
+    
+    "require": {
+      "ext-pdo": "*",
+      "ext-json": "*",
+        "ext-curl": "*",
+      "ext-mysqli": "*"
+    }
+}
